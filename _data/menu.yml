@@ -1,0 +1,11 @@
+- title: Accueil
+  link: /
+
+- title: Particuliers
+  link: /particuliers/
+
+- title: Professionnels
+  link: "/professionnels/"
+
+- title: Contact
+  link: "/contact/"

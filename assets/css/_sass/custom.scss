@@ -1,0 +1,40 @@
+@import "bootstrap/functions";
+@import "bootstrap/variables";
+
+$blue:    #4786B3;
+$indigo:  #4750B3;
+$purple:  #7447B3;
+$pink:    #B34786;
+$red:     #B34750;
+$orange:  #B37447;
+$yellow:  #B3AA47;
+$green:   #50B347;
+$teal:    #47B374;
+$cyan:    #47B3AA;
+
+$colors: (
+  "blue": $blue,
+  "indigo": $indigo,
+  "purple": $purple,
+  "pink": $pink,
+  "red": $red,
+  "orange": $orange,
+  "yellow": $yellow,
+  "green": $green,
+  "teal": $teal,
+  "cyan": $cyan,
+  "white": $white,
+  "gray": $gray-600,
+  "gray-dark": $gray-800
+);
+
+$theme-colors: (
+  primary: $blue,
+  secondary: $gray-800,
+  success: $green,
+  info:  $cyan,
+  warning: $orange,
+  danger: $red
+);
+
+@import "bootstrap/bootstrap";

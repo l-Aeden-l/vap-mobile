@@ -1,0 +1,25 @@
+body > header {
+  height: 500px;
+  background-image: url('../img/banniere-vap-mobile.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.hero-unit {
+  border: solid 1px $green;
+  background-color: rgba(255, 255, 255, .9);
+}
+
+.navbar ul li a {
+  font-size: 22px;
+}
+
+#why-steam .fas {
+  display: block;
+  width: 2vw;
+  height: 2vw;
+  font-size: 2vw;
+  margin: 0 auto;
+  margin-bottom: 5px;
+}
