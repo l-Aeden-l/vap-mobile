@@ -1,9 +1,17 @@
-body > header {
+.main-header {
   height: 500px;
   background-image: url('../img/banniere-vap-mobile.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+}
+
+.service-header {
+  height: 375px;
+  background-color: $green;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;  
 }
 
 .hero-unit {
@@ -15,11 +23,22 @@ body > header {
   font-size: 22px;
 }
 
-#why-steam .fas {
-  display: block;
-  width: 2vw;
-  height: 2vw;
-  font-size: 2vw;
-  margin: 0 auto;
-  margin-bottom: 5px;
-}
+  #why-steam .card-body header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  #why-steam .fas {
+    font-size: 37.5px;
+    color: $green;
+  }
+
+  #why-steam .card-body h4 {
+    margin: 0 0 0 15px;
+  }
+
+  #why-steam .card-body p {
+    text-align: justify;
+  }
