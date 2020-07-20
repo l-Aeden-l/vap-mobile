@@ -4,25 +4,38 @@ layout: default
 permalink: /particuliers/
 ---
 
-<h2>Des prestations pour chaque besoin</h2>
+<h2>{{ site.data.individual.title }}</h2>
 <hr />
 <p>
-  Lorem ipsum dolor sit amet, consectetur adipisicing elit. A deserunt neque
-  tempore recusandae animi soluta quasi? Asperiores rem dolore eaque vel, porro,
-  soluta unde debitis aliquam laboriosam. Repellat explicabo, maiores!
+  {{ site.data.individual.introduction | markdownify }}
 </p>
-<p>
-  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis optio neque
-  consectetur consequatur magni in nisi, natus beatae quidem quam odit commodi
-  ducimus totam eum, alias, adipisci nesciunt voluptate. Voluptatum.
-</p>
-<p>
-  Lorem ipsum dolor sit amet, consectetur adipisicing elit. A deserunt neque
-  tempore recusandae animi soluta quasi? Asperiores rem dolore eaque vel, porro,
-  soluta unde debitis aliquam laboriosam. Repellat explicabo, maiores!
-</p>
-<p>
-  Lorem ipsum dolor sit amet, consectetur adipisicing elit. A deserunt neque
-  tempore recusandae animi soluta quasi? Asperiores rem dolore eaque vel, porro,
-  soluta unde debitis aliquam laboriosam. Repellat explicabo, maiores!
-</p>
+<div class="container">
+  <div class="row card-group categories-voitures">
+  {% for item in site.data.individual.pricing %}
+  <div class="col-md-6 col-lg-4 mb-4">
+    <div class="card text-center">
+      <div class="card-header">
+        <h5 class="card-title d-flex justify-content-center align-items-center">{{ item.title }}</h5>
+      </div>
+      <div class="card-body d-flex flex-column justify-content-center align-items-center">
+        {% for item in item.images %}
+        <img src="{{ site.baseurl }}/{{ item.source }}" alt="{{ item.alt }}">
+        {% endfor %}
+      </div>
+      <div class="card-footer">
+        <div class="badge-info">{{ item.price }} €</div>
+      </div>
+    </div>
+  </div>
+  {% endfor %}
+  </div>
+</div>
+
+<h3>{{ site.data.individual.detail.title | markdownify }}</h3>
+<hr>
+<div class="services-detail">
+  {% for item in site.data.individual.detail.services %}
+    <h4>{{ item.title }}</h4>
+    <p>{{ item.description | markdownify }}</p>
+  {% endfor %}
+</div>

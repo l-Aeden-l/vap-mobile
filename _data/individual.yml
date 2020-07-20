@@ -1,0 +1,68 @@
+title: "Une offre simple, une tarification adaptée"
+
+header:
+  title: "- À partir de 75 € -"
+  subtitle: Nettoyage intérieur complet de votre véhicule
+
+introduction: |
+  Les tarifs de base, affichés ci-dessous, concernent le nettoyage intérieur des véhicules.  
+  Pour un nettoyage complet - extérieur compris -, comptez 25 € supplémentaire.
+
+pricing:
+  - title: "Citadine"
+    images:
+      - source: "assets/img/categories-voitures/citadine.svg"
+        alt: "Citadine"
+    price: 75
+  - title: "Berline<br>cabriolet"
+    images:
+      - source: "assets/img/categories-voitures/berline.svg"
+        alt: "Berline"
+      - source: "assets/img/categories-voitures/cabriolet.svg"
+        alt: "Cabriolet"
+    price: 85
+  - title: "Grande berline<br>Grande cabriolet"
+    images:
+      - source: "assets/img/categories-voitures/grande-berline.svg"
+        alt: "Grande berline"
+      - source: "assets/img/categories-voitures/cabriolet.svg"
+        alt: "Grande cabriolet"
+    price: 95
+  - title: "Monospace<br>Break - SUV"
+    images:
+      - source: "assets/img/categories-voitures/monospace.svg"
+        alt: "Monospace"
+      - source: "assets/img/categories-voitures/break.svg"
+        alt: "Break"
+    price: 105
+  - title: "Véhicule de luxe<br>Utilitaire - 4X4"
+    images:
+      - source: "assets/img/categories-voitures/utilitaire.svg"
+        alt: "Utilitaire"
+      - source: "assets/img/categories-voitures/coupe.svg"
+        alt: "Coupe"
+    price: 115
+
+detail:
+  title: "Détails des prestations "
+  services:
+    - title: "Lavage intérieur :"
+      description: |
+        * Dépoussiérage et nettoyage des plastiques intérieur (tableau de bord, levier de vitesse, portes, coffres)
+        * Aspiration de l’habitacle et du coffre (sièges, tapis, moquette)
+        * Nettoyage des entre portes (joints, charnières, panneau de portes)
+        * Nettoyage (grilles de ventilation, désinfection des circuit d’aération, bas de marche, rails de sièges, boite à gants, cendrier)
+        * Nettoyage des surfaces vitrées (vitres, pare-brise, lunette arrière)
+        * Parfum habitacle 12  senteur au choix. Fruits rouges  , vanille-cannelle ,  orange , etc...
+        * Au-delà de 5 places  ( supplément de   3 € par places assises )
+    - title: "Lavage extérieur :"
+      description: |
+        * Lavage manuel de la carrosserie shampoing professionnel, bas de caisse, plastiques...« utilisation de chiffons microfibres »  
+        * Nettoyage vapeur des surfaces vitrées (vitres , rétro , pare-brise , lunette arrière)
+        * Désoxydation et nettoyage vapeur des jantes (enjoliveurs)
+        * Nettoyages des joint de porte fenêtre etc...
+        * Séchage manuel de la carrosserie (utilisation de chiffons microfibres)
+        * Lustrage manuel express +  brillant pneus 
+        * Capote en toile voir tarif à la  carte
+
+    

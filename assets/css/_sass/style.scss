@@ -1,3 +1,4 @@
+
 .main-header {
   height: 500px;
   background-image: url('../img/banniere-vap-mobile.jpg');
@@ -23,6 +24,15 @@
   font-size: 22px;
 }
 
+h2 + hr {
+  border-top: solid 1px $green;
+}
+h3 + hr {
+  margin-left: 0;
+  width: 50%;
+}
+
+/* Page accueil */
   #why-steam .card-body header {
     display: flex;
     justify-content: center;
@@ -42,3 +52,19 @@
   #why-steam .card-body p {
     text-align: justify;
   }
+
+/* Page particuliers */
+.categories-voitures .card-title {
+  display: block;
+  height: $h5-font-size * 2;
+  margin-bottom: 0;
+}
+.categories-voitures .card-body {
+  height: 150px;
+}
+.categories-voitures img {
+  height: 50px;
+}
+.services-detail {
+  margin-left: 15px;
+}
