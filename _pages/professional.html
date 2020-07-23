@@ -2,27 +2,29 @@
 title: Professionnels
 layout: default
 permalink: /professionnels/
+reverse-company-types: false
 ---
 
-<h2>Des prestations pour chaque besoin</h2>
+<h2>{{ site.data.professional.title }}</h2>
 <hr />
 <p>
-  Lorem ipsum dolor sit amet, consectetur adipisicing elit. A deserunt neque
-  tempore recusandae animi soluta quasi? Asperiores rem dolore eaque vel, porro,
-  soluta unde debitis aliquam laboriosam. Repellat explicabo, maiores!
+  {{ site.data.professional.introduction | markdownify }}
 </p>
-<p>
-  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis optio neque
-  consectetur consequatur magni in nisi, natus beatae quidem quam odit commodi
-  ducimus totam eum, alias, adipisci nesciunt voluptate. Voluptatum.
-</p>
-<p>
-  Lorem ipsum dolor sit amet, consectetur adipisicing elit. A deserunt neque
-  tempore recusandae animi soluta quasi? Asperiores rem dolore eaque vel, porro,
-  soluta unde debitis aliquam laboriosam. Repellat explicabo, maiores!
-</p>
-<p>
-  Lorem ipsum dolor sit amet, consectetur adipisicing elit. A deserunt neque
-  tempore recusandae animi soluta quasi? Asperiores rem dolore eaque vel, porro,
-  soluta unde debitis aliquam laboriosam. Repellat explicabo, maiores!
-</p>
+<div class="container">
+  <div class="row card-group company-types">
+  {% for item in site.data.professional.company-types %}
+  <div class="col-md-6 col-lg-4 mb-4">
+    <div class="card text-center">
+      <div class="card-header d-flex flex-column justify-content-center align-items-center">
+        <h5 class="card-title">{{ item.title }}</h5>
+      </div>
+      <div class="card-body">
+        {% for item in item.image %}
+        <img src="{{ site.baseurl }}/{{ item.source }}" class="img-fluid" alt="{{ item.alt }}">
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+  {% endfor %}
+  </div>
+</div>

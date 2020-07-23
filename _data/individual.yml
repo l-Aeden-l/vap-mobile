@@ -1,8 +1,8 @@
-title: "Une offre simple, une tarification adaptée"
-
 header:
   title: "- À partir de 75 € -"
   subtitle: Nettoyage intérieur complet de votre véhicule
+
+title: "Une offre simple, une tarification adaptée"
 
 introduction: |
   Les tarifs de base, affichés ci-dessous, concernent le nettoyage intérieur des véhicules.  
@@ -10,11 +10,13 @@ introduction: |
 
 pricing:
   - title: "Citadine"
+    subtitle: "Polo, Twingo, C3, C1, Fiat 500, Smart..."
     images:
       - source: "assets/img/categories-voitures/citadine.svg"
         alt: "Citadine"
     price: 75
   - title: "Berline<br>cabriolet"
+    subtitle: "C4, 308, Focus, DS4, A3, Golf 6, 207 CC..."
     images:
       - source: "assets/img/categories-voitures/berline.svg"
         alt: "Berline"
@@ -22,6 +24,7 @@ pricing:
         alt: "Cabriolet"
     price: 85
   - title: "Grande berline<br>Grande cabriolet"
+    subtitle: "DS5, Classe C, 607 serie 3, C5, 407, 508..."
     images:
       - source: "assets/img/categories-voitures/grande-berline.svg"
         alt: "Grande berline"
@@ -29,6 +32,7 @@ pricing:
         alt: "Grande cabriolet"
     price: 95
   - title: "Monospace<br>Break - SUV"
+    subtitle: "Grand modus, Espace, Juke, Laguna break..."
     images:
       - source: "assets/img/categories-voitures/monospace.svg"
         alt: "Monospace"
@@ -36,6 +40,7 @@ pricing:
         alt: "Break"
     price: 105
   - title: "Véhicule de luxe<br>Utilitaire - 4X4"
+    subtitle: "Porshe, Kangoo, Ferrari, Range Rover..."
     images:
       - source: "assets/img/categories-voitures/utilitaire.svg"
         alt: "Utilitaire"

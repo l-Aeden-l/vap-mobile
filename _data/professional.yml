@@ -1,0 +1,38 @@
+header:
+  title: "- Prestation sur devis -"
+  subtitle: Entretien de véhicule professionnel et flottes automobiles
+
+title: "Des prestations sur-mesures, à l'image de votre entreprise"
+
+introduction: |
+  Afin de répondre au mieux à vos impératifs, Vap'Mobile s'adapte à vos besoins, vos contraintes et propose une tarification au plus près de votre budget. Au-delà d'offrir une solution de nettoyage innovante, efficace, non-agressive et respectueuse de l'environnement, c'est l'image même de votre société qui se voit valorisée. En effet, notre procédé de nettoyage garanti un parfait assainissement de vos intérieurs et une empreinte écologique quasi-nulle. En nous choisissant, vous adopterez une démarche eco-responsable en phase avec les moeurs de notre temps : la préservation de nos ressources et la sauvegarde de notre planète.
+
+company-types:
+  - title: "Véhicule de société"
+    image: 
+      - source: "assets/img/photos-illustration/entreprise.jpg"
+        alt: "Véhicule de société"
+    description: |
+      Nous intervenons sur tout type de véhicule, et proposons des forfaits adaptés au volume et à la fréquence de nettoyage de votre parc automobile.
+  - title: "Flotte automobile"
+    image:
+      - source: "assets/img/photos-illustration/flotte-automobile.jpg"
+        alt: "Flotte automobile"
+  - title: "Professionnels de l'automobile (garage, concessionnaires)"
+    image:
+      - source: "assets/img/photos-illustration/concessionnaire-garage.jpg"
+        alt: "Concession automobile"
+    description: |
+      Neuf, ou d'occasion, nous intervenons sur la préparation de vos véhicules, afin de les rendre plus attrayants auprès de votre clientèle.
+  - title: "Location / prêt de véhicule"
+    image:
+      - source: "assets/img/photos-illustration/location-pret.jpg"
+        alt: "Clé pour prêt de véhicule"
+    description: |
+      Afin de garantir à vos clients un habitacle et un extérieur irréprochable, nous vous propons un entretien régulier de vos autos, et la remise en état des véhicules les plus altérés.
+  - title: "Ambulances"
+    image:
+      - source: "assets/img/photos-illustration/ambulance.jpg"
+        alt: "Ambulances"
+    description: |
+      Transporter des patients est toujours une étape délicate qui ne peut composer avec l'à-peu-près. Le nettoyage et la désinfection doivent être irréprochables, et parmi les procédés de lavage auto existants, seule la vapeur peut traiter les surfaces en profondeur.

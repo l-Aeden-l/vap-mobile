@@ -10,12 +10,13 @@ permalink: /particuliers/
   {{ site.data.individual.introduction | markdownify }}
 </p>
 <div class="container">
-  <div class="row card-group categories-voitures">
+  <div class="row card-group car-categories">
   {% for item in site.data.individual.pricing %}
   <div class="col-md-6 col-lg-4 mb-4">
     <div class="card text-center">
-      <div class="card-header">
-        <h5 class="card-title d-flex justify-content-center align-items-center">{{ item.title }}</h5>
+      <div class="card-header d-flex flex-column justify-content-center align-items-center">
+        <h5 class="card-title">{{ item.title }}</h5>
+        <h6 class="card-subtitle mb-2 text-muted">{{ item.subtitle }}</h6>
       </div>
       <div class="card-body d-flex flex-column justify-content-center align-items-center">
         {% for item in item.images %}
