@@ -18,11 +18,24 @@
     <div class="collapse navbar-collapse" id="navbarResponsive">
       <ul class="navbar-nav ml-auto">
         {% for item in site.data.menu %}
+        {% if item.sub %}
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            {{ item.title }}
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            {% for item in item.sub %}
+            <a class="dropdown-item" href="{{ site.baseurl }}{{ item.link }}">{{ item.title }}</a>
+            {% endfor %}
+          </div>
+        </li>
+        {% else %}
         <li class="nav-item{% if item.link == page.url %} active {% endif %}">
           <a class="nav-link" href="{{ site.baseurl }}{{ item.link }}">{{
             item.title
           }}</a>
         </li>
+        {% endif %}
         {% endfor %}
       </ul>
     </div>

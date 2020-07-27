@@ -20,19 +20,28 @@ company-types:
         alt: "Flotte automobile"
   - title: "Professionnels de l'automobile (garage, concessionnaires)"
     image:
-      - source: "assets/img/photos-illustration/concessionnaire-garage.jpg"
+      - source: "assets/img/photos-illustration/concessionnaire_garage.jpg"
         alt: "Concession automobile"
     description: |
       Neuf, ou d'occasion, nous intervenons sur la préparation de vos véhicules, afin de les rendre plus attrayants auprès de votre clientèle.
   - title: "Location / prêt de véhicule"
     image:
-      - source: "assets/img/photos-illustration/location-pret.jpg"
+      - source: "assets/img/photos-illustration/location_pret.jpg"
         alt: "Clé pour prêt de véhicule"
     description: |
       Afin de garantir à vos clients un habitacle et un extérieur irréprochable, nous vous propons un entretien régulier de vos autos, et la remise en état des véhicules les plus altérés.
-  - title: "Ambulances"
+  - title: "Taxi / Ambulance"
     image:
-      - source: "assets/img/photos-illustration/ambulance.jpg"
-        alt: "Ambulances"
+      - source: "assets/img/photos-illustration/taxi_ambulance.jpg"
+        alt: "Taxi, ambulance"
     description: |
-      Transporter des patients est toujours une étape délicate qui ne peut composer avec l'à-peu-près. Le nettoyage et la désinfection doivent être irréprochables, et parmi les procédés de lavage auto existants, seule la vapeur peut traiter les surfaces en profondeur.
+      Pour le respect de la clientèle et de sa santé, les taxis et ambulances doivent présenter un
+      intérieur parfaitement propre et sain. Il est donc impératif de veiller, continuellement, à
+      un nettoyage et une désinfection en profondeur des surfaces.
+  - title: "Car / Camping car"
+    image:
+      - source : "assets/img/photos-illustration/car_camping-car.jpg"
+        alt: "Car, Camping car"
+    description: |
+      Les cars et campings car sont de larges espaces, aux recoins parfois exiguës, où se croisent continuellement foule de personnes. Les saletés et traces d'usures apparaissent donc très tôt
+      et réclâme un entretien continu et minutieux.

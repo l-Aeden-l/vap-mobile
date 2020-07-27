@@ -16,7 +16,7 @@ pricing:
         alt: "Citadine"
     price: 75
   - title: "Berline<br>cabriolet"
-    subtitle: "C4, 308, Focus, DS4, A3, Golf 6, 207 CC..."
+    subtitle: "C4, 308, Focus, DS4, A3, 206, 207..."
     images:
       - source: "assets/img/categories-voitures/berline.svg"
         alt: "Berline"
@@ -24,29 +24,35 @@ pricing:
         alt: "Cabriolet"
     price: 85
   - title: "Grande berline<br>Grande cabriolet"
-    subtitle: "DS5, Classe C, 607 serie 3, C5, 407, 508..."
+    subtitle: "DS5, Classe C, 607, C5, 407, 508..."
     images:
       - source: "assets/img/categories-voitures/grande-berline.svg"
         alt: "Grande berline"
       - source: "assets/img/categories-voitures/cabriolet.svg"
         alt: "Grande cabriolet"
     price: 95
-  - title: "Monospace<br>Break - SUV"
-    subtitle: "Grand modus, Espace, Juke, Laguna break..."
+  - title: "Petit utilitaire<br>Break - SUV"
+    subtitle: "Espace, DS7, Juke, Laguna break, Kangoo..."
     images:
       - source: "assets/img/categories-voitures/monospace.svg"
         alt: "Monospace"
       - source: "assets/img/categories-voitures/break.svg"
         alt: "Break"
     price: 105
-  - title: "Véhicule de luxe<br>Utilitaire - 4X4"
-    subtitle: "Porshe, Kangoo, Ferrari, Range Rover..."
+  - title: "Grand utilitaire<br>4x4"
+    subtitle: "Vivaro, Range Rover"
     images:
       - source: "assets/img/categories-voitures/utilitaire.svg"
-        alt: "Utilitaire"
+        alt: "Grand utilitaire"
+      - source: "assets/img/categories-voitures/4x4.svg"
+        alt: "4x4"
+    price: 115
+  - title: "Voiture de luxe"
+    subtitle: "Porsche, Ferrari, Maserati"
+    images:
       - source: "assets/img/categories-voitures/coupe.svg"
         alt: "Coupe"
-    price: 115
+    price: 125
 
 detail:
   title: "Détails des prestations "
