@@ -5,8 +5,8 @@ header:
 title: "Une offre simple, une tarification adaptée"
 
 introduction: |
-  Les tarifs de base, affichés ci-dessous, concernent le nettoyage intérieur des véhicules.  
-  Pour un nettoyage complet - extérieur compris -, comptez 25 € supplémentaire.
+  Notre procédé de nettoyage vapeur se veut clair et concis, nos prix également. Ici, pas de grilles tarifaires obscures à décrypter point par point ; nous vous présentons
+  6 catégories de véhicules et le forfait de votre choix.
 
 pricing:
   - title: "Citadine"
@@ -57,23 +57,21 @@ pricing:
 detail:
   title: "Détails des prestations "
   services:
-    - title: "Lavage intérieur :"
+    - title: "Intérieur : "
       description: |
-        * Dépoussiérage et nettoyage des plastiques intérieur (tableau de bord, levier de vitesse, portes, coffres)
-        * Aspiration de l’habitacle et du coffre (sièges, tapis, moquette)
-        * Nettoyage des entre portes (joints, charnières, panneau de portes)
-        * Nettoyage (grilles de ventilation, désinfection des circuit d’aération, bas de marche, rails de sièges, boite à gants, cendrier)
-        * Nettoyage des surfaces vitrées (vitres, pare-brise, lunette arrière)
-        * Parfum habitacle 12  senteur au choix. Fruits rouges  , vanille-cannelle ,  orange , etc...
-        * Au-delà de 5 places  ( supplément de   3 € par places assises )
-    - title: "Lavage extérieur :"
+        * Dépoussiérage et traitement des plastiques (tableau de bord, levier de vitesse, portes, coffres)
+        * Aspiration de l'habitacle et pressing des sièges, moquettes et tapis
+        * Soin des cuirs par l'application d'une crème nourrissante
+        * Décrassage des entre portes et contour de coffre (joints, charnières, carrosserie)
+        * Assainissement des conduits d'aération (ventilation)
+        * Nettoyage bas de marche, rails de sièges, boite à gants et cendrier
+        * Lavage des surfaces vitrées (vitres, pare-brise, lunette arrière)
+        * Au-delà de 5 places (supplément de 10 € par places assises)
+    - title: "Extérieur : "
       description: |
-        * Lavage manuel de la carrosserie shampoing professionnel, bas de caisse, plastiques...« utilisation de chiffons microfibres »  
-        * Nettoyage vapeur des surfaces vitrées (vitres , rétro , pare-brise , lunette arrière)
-        * Désoxydation et nettoyage vapeur des jantes (enjoliveurs)
-        * Nettoyages des joint de porte fenêtre etc...
-        * Séchage manuel de la carrosserie (utilisation de chiffons microfibres)
-        * Lustrage manuel express +  brillant pneus 
-        * Capote en toile voir tarif à la  carte
+        * Lavage et lustrage de la carrosserie, bas de caisse et plastiques à l'aide de chiffons microfibres
+        * Nettoyage des surfaces vitrées (vitres, rétro, pare-brise, lunette arrière)
+        * Désoxydation et nettoyage des jantes et enjoliveurs
+        * Application d'un brillant pour pneus
 
     
