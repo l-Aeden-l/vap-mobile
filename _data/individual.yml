@@ -14,7 +14,9 @@ pricing:
     images:
       - source: "assets/img/categories-voitures/citadine.svg"
         alt: "Citadine"
-    price: 75
+    prices:
+      - in: 85
+        in-out: 110
   - title: "Berline<br>cabriolet"
     subtitle: "C4, 308, Focus, DS4, A3, 206, 207..."
     images:
@@ -22,7 +24,9 @@ pricing:
         alt: "Berline"
       - source: "assets/img/categories-voitures/cabriolet.svg"
         alt: "Cabriolet"
-    price: 85
+    prices:
+      - in: 95
+        in-out: 125
   - title: "Grande berline<br>Grande cabriolet"
     subtitle: "DS5, Classe C, 607, C5, 407, 508..."
     images:
@@ -30,7 +34,9 @@ pricing:
         alt: "Grande berline"
       - source: "assets/img/categories-voitures/cabriolet.svg"
         alt: "Grande cabriolet"
-    price: 95
+    prices:
+      - in: 105
+        in-out: 140
   - title: "Petit utilitaire<br>Break - SUV"
     subtitle: "Espace, DS7, Juke, Laguna break, Kangoo..."
     images:
@@ -38,7 +44,9 @@ pricing:
         alt: "Monospace"
       - source: "assets/img/categories-voitures/break.svg"
         alt: "Break"
-    price: 105
+    prices:
+      - in: 115
+        in-out: 155
   - title: "Grand utilitaire<br>4x4"
     subtitle: "Vivaro, Range Rover"
     images:
@@ -46,16 +54,21 @@ pricing:
         alt: "Grand utilitaire"
       - source: "assets/img/categories-voitures/4x4.svg"
         alt: "4x4"
-    price: 115
+    prices:
+      - in: 130
   - title: "Voiture de luxe"
     subtitle: "Porsche, Ferrari, Maserati"
     images:
       - source: "assets/img/categories-voitures/coupe.svg"
         alt: "Coupe"
-    price: 125
+    prices:
+      - in: 140
+        in-out: 185
 
 detail:
   title: "Détails des prestations "
+  note: |
+    __Note :__ Une sur-tarification pourra être appliquée dans le cas où il y aurait une présence excessive de poils d'animaux, de goudron et résine.
   services:
     - title: "Intérieur : "
       description: |
