@@ -1,0 +1,31 @@
+header:
+  title: Nettoyage vapeur de véhicules à domicile
+  subtitle: Pour particuliers et professionnels.
+
+sections:
+  introduction:
+    title: "Pourquoi la vapeur ?"
+    content: |
+      Contrairement aux pratiques courantes (rouleau, karcher) qui nécessitent une grande quantité d'eau et agressent les surfaces, le nettoyage à la vapeur ne requière que 2 litres d'eau et n'entre jamais en contact avec les matériaux. Le principe est simple : la vapeur est expulsée à haute température et s'insère dans tous les recoins pour y déloger les salissures (insectes, goudrons, graisses, etc.). Pour les tissus, l'action conjuguée de l'éjection et de l'aspiration de la vapeur assure à la fois une dissolution des saletés en profondeur et leur extraction ; afin de ne laisser aucun résidus ou stagnation d'eau.
+  covid-19:
+    title: "Efficacité contre le Coronavirus"
+    image:
+      source: "assets/img/coronavirus.svg"
+      alt: "Logo Coronavirus"
+    text: |
+      Des études et des retours sur expérience démontrent que le nettoyage à la vapeur parvient à éliminer 99,99 % des virus dit " envelopés (sphériques)" tels que la grippe ou encore le Coronavirus. C'est en effet l'action combinée de la pression, de la chaleur et du nettoyage microfibre qui garantissent une totale désinfection des surfaces, sans l'aide d'aucun produit chimique. Le procédé consiste à progresser lentement sur les surfaces (~30cm/s), afin que l'action de la vapeur soit optimiale.
+  summary-cards:
+    title: "En résumé, le procédé est :"
+    cards:
+      - title: "Éfficace"
+        icon : fa-thumbs-up
+        text: La vapeur à haute température et la pression permettent un nettoyage complet, sans traces et sans risques d’usure ou d’abrasion.
+      - title: "Sain"
+        icon : fa-heartbeat
+        text: La vapeur provient de l’eau (1 litre d’eau génère 1 500 litres de vapeur !) et évite à près de 80% l’usage de détergents.
+      - title: "Sûr"
+        icon : fa-check
+        text: Le nettoyage, précis, à la vapeur permet d’accéder à toutes les zones, avec minutie et sans risques car au contact de l’air, la vapeur diminue en température très rapidement. De plus, aucun risque mécanique (contrairement aux tunnels de lavages) d’abîmer un rétroviseur, une antenne, un pare-chocs, etc.
+      - title: "Écologique"
+        icon : fa-leaf
+        text: "Une consommation d’eau réduite au minimum, peu de rejets, des produits biodégradables : la vapeur est le procédé « vert » par nature."

@@ -5,11 +5,7 @@
   link: /particuliers/lavage-auto/
 
 - title: Professionnels
-  sub:
-    - title: Lavage auto
-      link: /professionnels/lavage-auto/
-    - title: Nettoyage habitat
-      link: /professionnels/nettoyage-habitat/
+  link: /professionnels/lavage-auto/
 
 - title: Contact
   link: /contact/

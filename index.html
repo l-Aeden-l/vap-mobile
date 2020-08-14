@@ -5,63 +5,44 @@ layout: default
 
 <div class="row why-steam">
   <div class="col-md-12 mb-5 text-justify">
-    <h2>Pourquoi la vapeur ?</h2>
-    <hr />
-    <p>
-      Contrairement aux pratiques courantes (rouleau, karcher) qui nécessitent une grande quantité d'eau et agressent les surfaces, le nettoyage à la vapeur ne requière que 2 litres d'eau et n'entre jamais en contact avec les matériaux. Le principe est simple : la vapeur est expulsée à haute température et s'insère dans tous les recoins pour y déloger les salissures (insectes, goudrons, graisses, etc.). Pour les tissus, l'action conjuguée de l'éjection et de l'aspiration de la vapeur assure à la fois une dissolution des saletés en profondeur et leur extraction ; afin de ne laisser aucun résidus ou stagnation d'eau.
-    </p>
-    <h3>En résumé, le procédé est : </h3>
-    <hr />
-    <div class="row">
-      <div class="col-md-6 mb-5">
-        <div class="card">
-          <div class="card-body">
-            <header>
-              <i class="fas fa-thumbs-up"></i>
-              <h4>Éfficace</h4>
-            </header>
-            <hr>
-            <p>La vapeur à haute température et la pression permettent un nettoyage complet, sans traces et sans risques d’usure ou d’abrasion.</p>
+    <section>
+      <h2>{{ site.data.home.sections.introduction.title }}</h2>
+      <hr />
+      <p>
+        Contrairement aux pratiques courantes (rouleau, karcher) qui nécessitent une grande quantité d'eau et agressent les surfaces, le nettoyage à la vapeur ne requière que 2 litres d'eau et n'entre jamais en contact avec les matériaux. Le principe est simple : la vapeur est expulsée à haute température et s'insère dans tous les recoins pour y déloger les salissures (insectes, goudrons, graisses, etc.). Pour les tissus, l'action conjuguée de l'éjection et de l'aspiration de la vapeur assure à la fois une dissolution des saletés en profondeur et leur extraction ; afin de ne laisser aucun résidus ou stagnation d'eau.
+      </p>
+    <section>
+    <section>
+      <div class="card">
+        <div class="card-body border border-info d-flex flex-lg-row flex-md-row flex-sm-column">
+          <img src="{{ site.baseurl }}/{{ site.data.home.sections.covid-19.image.source }}" alt="{{ site.data.home.sections.covid-19.image.alt }}">
+          <div>
+            <h5 class="card-title">{{ site.data.home.sections.covid-19.title }}</h5>
+            <p class="card-text">{{ site.data.home.sections.covid-19.text }}</p>
           </div>
         </div>
       </div>
-      <div class="col-md-6 mb-5">
-        <div class="card">
-          <div class="card-body">
-            <header>
-              <i class="fas fa-heartbeat"></i>
-              <h4>Sain</h4>
-            </header>
-            <hr>
-            <p>La vapeur provient de l’eau (1 litre d’eau génère 1 500 litres de vapeur !) et évite à près de 80% l’usage de détergents.</p>
+    </section>
+    <section>
+      <h3>{{ site.data.home.sections.summary-cards.title }} </h3>
+      <hr />
+      <div class="row">
+        {% for item in site.data.home.sections.summary-cards.cards %}
+        <div class="col-md-6 mb-5">
+          <div class="card">
+            <div class="card-body">
+              <header>
+                <i class="fas {{ item.icon }}"></i>
+                <h4>{{ item.title }} </h4>
+              </header>
+              <hr>
+              <p>{{ item.text }}</p>
+            </div>
           </div>
         </div>
+        {% endfor %}
       </div>
-      <div class="col-md-6 mb-5">
-        <div class="card">
-          <div class="card-body">
-            <header>
-              <i class="fas fa-check"></i>
-              <h4>Sûr</h4>
-            </header>
-            <hr>
-            <p>Le nettoyage, précis, à la vapeur permet d’accéder à toutes les zones, avec minutie et sans risques car au contact de l’air, la vapeur diminue en température très rapidement. De plus, aucun risque mécanique (contrairement aux tunnels de lavages) d’abîmer un rétroviseur, une antenne, un pare-chocs, etc.</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-6 mb-5">
-        <div class="card">
-          <div class="card-body">
-            <header>
-              <i class="fas fa-leaf"></i>
-              <h4>Écologique</h4>
-            </header>
-            <hr>
-            <p>Une consommation d’eau réduite au minimum, peu de rejets, des produits biodégradables : la vapeur est le procédé « vert » par nature.</p>
-          </div>
-        </div>
-      </div>
-    </div>
+    </section>
   </div>
 </div>
 <!-- /.row -->

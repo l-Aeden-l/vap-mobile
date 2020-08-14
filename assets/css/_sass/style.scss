@@ -16,7 +16,7 @@
 }
 
 .hero-unit {
-  border: solid 1px $green;
+  border: solid 1px $cyan;
   background-color: rgba(255, 255, 255, .9);
 }
 
@@ -25,13 +25,16 @@
 }
 
 h2 + hr {
-  border-top: solid 1px $green;
+  border-top: solid 1px $cyan;
 }
 h3 + hr {
   margin-left: 0;
   width: 50%;
 }
 
+.why-steam section {
+  margin-bottom: 1em;
+}
 .why-steam .card-body header {
   display: flex;
   align-items: center;
@@ -50,7 +53,7 @@ h3 + hr {
 /* Page accueil */
 
   .why-steam .fas {
-    color: $green;
+    color: $cyan;
   }
   .why-steam .card-body header {
     justify-content: center;

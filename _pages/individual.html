@@ -4,55 +4,59 @@ layout: default
 permalink: /particuliers/lavage-auto/
 ---
 
-<h2>{{ site.data.individual.title }}</h2>
+<h2>{{ site.data.individual.sections.introduction.title }}</h2>
 <hr />
 <p>
-  {{ site.data.individual.introduction | markdownify }}
+  {{ site.data.individual.sections.introduction.content | markdownify }}
 </p>
+
+<h3>{{ site.data.individual.sections.detail.title | markdownify }}</h3>
+<hr>
+<div class="services-detail">
+  {% for item in site.data.individual.sections.detail.services %}
+  <h4>{{ item.title }}</h4>
+  <p>{{ item.description | markdownify }}</p>
+  {% endfor %}
+</div>
+
 <div class="container">
+  <h3>{{ site.data.individual.sections.pricing.title }}</h3>
+  <hr />
   <div class="row card-group car-categories">
-  {% for item in site.data.individual.pricing %}
-  <div class="col-md-6 col-lg-4 mb-4">
-    <div class="card text-center">
-      <div class="card-header d-flex flex-column justify-content-center align-items-center">
-        <h5 class="card-title">{{ item.title }}</h5>
-        <h6 class="card-subtitle mb-2 text-muted">{{ item.subtitle }}</h6>
-      </div>
-      <div class="card-body d-flex flex-column justify-content-center align-items-center">
-        {% for item in item.images %}
-        <img src="{{ site.baseurl }}/{{ item.source }}" alt="{{ item.alt }}">
-        {% endfor %}
-      </div>
-      <div class="card-footer">
-        <ul class="list-group">
-          {% for item in item.prices %}
-          <li class="list-group-item"><span class="float-left">Intérieur : </span><span class="float-right">{{ item.in }} €</span></li>
-          {% if item.in-out %}
-          <li class="list-group-item"><span class="float-left">Intérieur/extérieur : </span><span class="float-right">{{ item.in-out }} €</span></li>
-          {% endif %}
+    {% for item in site.data.individual.sections.pricing.items %}
+    <div class="col-md-6 col-lg-4 mb-4">
+      <div class="card text-center">
+        <div class="card-header d-flex flex-column justify-content-center align-items-center">
+          <h5 class="card-title">{{ item.title }}</h5>
+          <h6 class="card-subtitle mb-2 text-muted">{{ item.subtitle }}</h6>
+        </div>
+        <div class="card-body d-flex flex-column justify-content-center align-items-center">
+          {% for item in item.images %}
+          <img src="{{ site.baseurl }}/{{ item.source }}" alt="{{ item.alt }}">
           {% endfor %}
-        </ul>
+        </div>
+        <div class="card-footer">
+          <ul class="list-group">
+            {% for item in item.prices %}
+            <li class="list-group-item"><span class="float-left">Intérieur : </span><span class="float-right">{{ item.in }} €</span></li>
+            {% if item.in-out %}
+            <li class="list-group-item"><span class="float-left">Intérieur/extérieur : </span><span class="float-right">{{ item.in-out }} €</span></li>
+            {% endif %}
+            {% endfor %}
+          </ul>
+        </div>
       </div>
     </div>
-  </div>
-  {% endfor %}
+    {% endfor %}
   </div>
 </div>
 
-<h3>{{ site.data.individual.detail.title | markdownify }}</h3>
-<hr>
 <div class="container">
   <div class="row">
     <div class="col-md-8 offset-md-2 text-justify">
       <div class="alert alert-info" role="alert">
-        {{ site.data.individual.detail.note | markdownify }}
+        {{ site.data.individual.sections.pricing.note | markdownify }}
       </div>
     </div>
   </div>
-</div>
-<div class="services-detail">
-  {% for item in site.data.individual.detail.services %}
-  <h4>{{ item.title }}</h4>
-  <p>{{ item.description | markdownify }}</p>
-  {% endfor %}
 </div>
