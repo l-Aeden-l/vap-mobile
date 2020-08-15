@@ -12,10 +12,13 @@ permalink: /particuliers/lavage-auto/
 </section>
 
 <section>
-  <h3>{{ site.data.individual.sections.detail.title | markdownify }}</h3>
+  <h3>{{ site.data.common-info.services.detail.title | markdownify }}</h3>
   <hr>
-  <div class="services-detail">
-    {% for item in site.data.individual.sections.detail.services %}
+  <a class="btn btn-primary btn-lg btn-block" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+    Afficher le détail
+  </a>
+  <div class="services-detail collapse" id="collapseExample">
+    {% for item in site.data.common-info.services.detail.tasks %}
     <h4>{{ item.title }}</h4>
     <p>{{ item.description | markdownify }}</p>
     {% endfor %}
@@ -25,8 +28,8 @@ permalink: /particuliers/lavage-auto/
 <section>
   <div class="card">
     <div class="card-body border border-warning">
-        <h4 class="card-title">{{ site.data.important.notes.services-prerequisite.title }}</h4>
-        <p class="card-text">{{ site.data.important.notes.services-prerequisite.text | markdownify }}</p>
+        <h4 class="card-title">{{ site.data.common-info.services.prerequisite.title }}</h4>
+        <p class="card-text">{{ site.data.common-info.services.prerequisite.text | markdownify }}</p>
     </div>
   </div>
 </section>

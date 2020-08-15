@@ -1,0 +1,33 @@
+services:
+  detail:
+    title: "Prestations"
+    tasks:
+      - title: "Intérieur : "
+        description: |
+          * Dépoussiérage et traitement des plastiques (tableau de bord, levier de vitesse, portes, coffres)
+          * Aspiration de l'habitacle et pressing des sièges, moquettes et tapis
+          * Soin des cuirs par l'application d'une crème nourrissante
+          * Décrassage des entre portes et contour de coffre (joints, charnières, carrosserie)
+          * Assainissement des conduits d'aération (ventilation)
+          * Nettoyage bas de marche, rails de sièges, boite à gants et cendrier
+          * Lavage des surfaces vitrées (vitres, pare-brise, lunette arrière)
+          * Au-delà de 5 places (supplément de 10 € par places assises)
+      - title: "Extérieur : "
+        description: |
+          * Lavage et lustrage de la carrosserie, bas de caisse et plastiques à l'aide de chiffons microfibres
+          * Nettoyage des surfaces vitrées (vitres, rétro, pare-brise, lunette arrière)
+          * Désoxydation et nettoyage des jantes et enjoliveurs
+          * Application d'un brillant pour pneus
+  prerequisite:
+    title: "- Important -"
+    text: | 
+      1. Il nous faut disposer d'une prise électrique à moins de 25 mètre (maximum) du lieu d'intervention.  
+      2. Le véhicule devra être vidé avant l'opération de nettoyage.  
+      3. Le nettoyage extérieur ne sera effectué que lors d'une météo modérée (pas de pluie ou fort ensoleillement).  
+      *Toutefois, l'intervention peut avoir lieu dans le cas d'un emplacement couvert ou ombragé.*  
+      4. Le règlement s'effectuera en fin d'intervention, par chèque ou espèce.  
+
+      ---
+
+      Il n'est pas nécessaire de nous fournir une arrivée d'eau, car nous sommes autonomes sur ce point.
+

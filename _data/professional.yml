@@ -38,7 +38,7 @@ company-types:
       Pour le respect de la clientèle et de sa santé, les taxis et ambulances doivent présenter un
       intérieur parfaitement propre et sain. Il est donc impératif de veiller, continuellement, à
       un nettoyage et une désinfection en profondeur des surfaces.
-  - title: "Car / Camping car"
+  - title: "Car / Camping car<br>(intérieur uniquement)"
     image:
       - source : "assets/img/photos-illustration/car_camping-car.jpg"
         alt: "Car, Camping car"
