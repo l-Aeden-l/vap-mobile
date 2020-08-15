@@ -15,7 +15,7 @@ sections:
     text: |
       Des études et des retours sur expérience démontrent que le nettoyage à la vapeur parvient à éliminer 99,99 % des virus dits " enveloppés (sphériques) " tels que la grippe ou encore le Coronavirus. C'est en effet l'action combinée de la pression, de la chaleur et du nettoyage microfibre qui garantit une totale désinfection des surfaces, sans l'aide d'aucun produit chimique. Le procédé consiste à progresser lentement sur les surfaces (~30cm/s), afin que l'action de la vapeur soit optimale.
   summary-cards:
-    title: "En résumé, le procédé est :"
+    title: "En résumé :"
     cards:
       - title: "Éfficace"
         icon : fa-thumbs-up
