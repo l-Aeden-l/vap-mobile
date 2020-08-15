@@ -6,26 +6,26 @@ sections:
   introduction:
     title: "Pourquoi la vapeur ?"
     content: |
-      Contrairement aux pratiques courantes (rouleau, karcher) qui nécessitent une grande quantité d'eau et agressent les surfaces, le nettoyage à la vapeur ne requière que 2 litres d'eau et n'entre jamais en contact avec les matériaux. Le principe est simple : la vapeur est expulsée à haute température et s'insère dans tous les recoins pour y déloger les salissures (insectes, goudrons, graisses, etc.). Pour les tissus, l'action conjuguée de l'éjection et de l'aspiration de la vapeur assure à la fois une dissolution des saletés en profondeur et leur extraction ; afin de ne laisser aucun résidus ou stagnation d'eau.
+      Contrairement aux pratiques courantes (rouleau, jet haute pression) qui nécessitent une grande quantité d'eau et agressent les surfaces, le nettoyage à la vapeur ne requière que 2 litres d'eau et n'entre jamais en contact avec les matériaux. Le principe est simple : la vapeur est expulsée à haute température et s'insère dans tous les recoins pour y déloger les salissures (insectes, goudrons, graisses, etc.). Pour les tissus, l'action conjuguée de l'éjection et de l'aspiration de la vapeur assure à la fois une dissolution des saletés en profondeur et leur extraction ; afin de ne laisser aucun résidu ou stagnation d'eau.
   covid-19:
     title: "Efficacité contre le Coronavirus"
     image:
       source: "assets/img/coronavirus.svg"
       alt: "Logo Coronavirus"
     text: |
-      Des études et des retours sur expérience démontrent que le nettoyage à la vapeur parvient à éliminer 99,99 % des virus dit " envelopés (sphériques)" tels que la grippe ou encore le Coronavirus. C'est en effet l'action combinée de la pression, de la chaleur et du nettoyage microfibre qui garantissent une totale désinfection des surfaces, sans l'aide d'aucun produit chimique. Le procédé consiste à progresser lentement sur les surfaces (~30cm/s), afin que l'action de la vapeur soit optimiale.
+      Des études et des retours sur expérience démontrent que le nettoyage à la vapeur parvient à éliminer 99,99 % des virus dits " enveloppés (sphériques) " tels que la grippe ou encore le Coronavirus. C'est en effet l'action combinée de la pression, de la chaleur et du nettoyage microfibre qui garantit une totale désinfection des surfaces, sans l'aide d'aucun produit chimique. Le procédé consiste à progresser lentement sur les surfaces (~30cm/s), afin que l'action de la vapeur soit optimale.
   summary-cards:
     title: "En résumé, le procédé est :"
     cards:
       - title: "Éfficace"
         icon : fa-thumbs-up
-        text: La vapeur à haute température et la pression permettent un nettoyage complet, sans traces et sans risques d’usure ou d’abrasion.
+        text: La vapeur à haute pression et haute température assure une désincrustation en profondeur de tout type de saleté. Avec un jeu d'embouts adaptés à chaque surface, un panel de produits nettoyant (textile, cuir, plastique, carrosserie), et l'action de chiffons microfibres, vous avez la garantie d'un nettoyage impécable.
       - title: "Sain"
         icon : fa-heartbeat
-        text: La vapeur provient de l’eau (1 litre d’eau génère 1 500 litres de vapeur !) et évite à près de 80% l’usage de détergents.
+        text: La vapeur assure également l'élimination de toutes bactéries (notamment reponsables des mauvaises odeurs), acariens et allergènes souvent préjudiciables à un public à la santé fragile. De plus, le recours aux détergents est minimal, puisque l'action de la vapeur se suffit quasiment à elle-même.
       - title: "Sûr"
         icon : fa-check
         text: Le nettoyage, précis, à la vapeur permet d’accéder à toutes les zones, avec minutie et sans risques car au contact de l’air, la vapeur diminue en température très rapidement. De plus, aucun risque mécanique (contrairement aux tunnels de lavages) d’abîmer un rétroviseur, une antenne, un pare-chocs, etc.
       - title: "Écologique"
         icon : fa-leaf
-        text: "Une consommation d’eau réduite au minimum, peu de rejets, des produits biodégradables : la vapeur est le procédé « vert » par nature."
+        text: "Contrairement au lavage à l'eau manuel, au rouleau ou encore au jet haute pression, le procédé de lavage à la vapeur ne requière qu'une infime quantité d'eau : 1L génère 1 500 litres de vapeur. L'eau étant une ressource plus précieuse que jamais, il est important d'utiliser du matériel eco-responsable."
