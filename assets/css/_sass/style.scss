@@ -51,14 +51,13 @@ section {
   text-align: justify;
 }
 
-/* Page accueil */
-
   .why-steam .fas {
     color: $cyan;
   }
   .why-steam .card-body header {
     justify-content: center;
   }
+
 .car-categories .card-header, {
   height: 125px;
 }
@@ -77,6 +76,21 @@ section {
 .car-categories img {
   height: 50px;
 }
-.services-detail {
-  margin-left: 15px;
+
+.services-detail #collapseExample.collapse:not(.show) {
+  display: block;
+  height: 12rem;
+  overflow: hidden;
+}
+
+.services-detail #collapseExample.collapsing {
+  height: 12rem;
+}
+
+.services-detail a.collapsed::after {
+  content: 'Voir plus...';
+}
+
+.services-detail a:not(.collapsed)::after {
+  content: 'Voir moins...';
 }

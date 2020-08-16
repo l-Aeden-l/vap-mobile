@@ -4,9 +4,13 @@ header:
 
 sections:
   introduction:
+    title: "Qui sommes-nous ?"
+    text: | 
+      Nous sommes une entreprise de nettoyage vapeur de tout type de véhicule auto : voiture, utilitaire, camping-car" dans le lot-et-garonne (47), dans une zone géographique couvrant Agen, Le Passage, Marmande, Casteljaloux, Villeneuve-Sur-Lot.
+  why-steam:
     title: "Pourquoi la vapeur ?"
-    content: |
-      Contrairement aux pratiques courantes (rouleau, jet haute pression) qui nécessitent une grande quantité d'eau et agressent les surfaces, le nettoyage à la vapeur ne requière que 2 litres d'eau et n'entre jamais en contact avec les matériaux. Le principe est simple : la vapeur est expulsée à haute température et s'insère dans tous les recoins pour y déloger les salissures (insectes, goudrons, graisses, etc.). Pour les tissus, l'action conjuguée de l'éjection et de l'aspiration de la vapeur assure à la fois une dissolution des saletés en profondeur et leur extraction ; afin de ne laisser aucun résidu ou stagnation d'eau.
+    text: |
+      Contrairement aux pratiques courantes (rouleau, jet haute pression) qui nécessitent une grande quantité d'eau et agressent les surfaces, le nettoyage à la vapeur ne requière que 5 litres d'eau et n'entre jamais en contact avec les matériaux. Le principe est simple : la vapeur est expulsée à haute température et s'insère dans tous les recoins pour y déloger les salissures (insectes, goudrons, graisses, etc.). Pour les tissus, l'action conjuguée de l'éjection et de l'aspiration de la vapeur assure à la fois une dissolution des saletés en profondeur et leur extraction ; afin de ne laisser aucun résidu ou stagnation d'eau.
   covid-19:
     title: "Efficacité contre le Coronavirus"
     image:

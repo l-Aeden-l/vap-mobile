@@ -1,0 +1,19 @@
+<section class="services-detail">
+  <h3>{{ site.data.common-info.services.detail.title | markdownify }}</h3>
+  <div class="collapse" id="collapseExample" aria-expanded="false">
+    {% for item in site.data.common-info.services.detail.tasks %}
+    <h4>{{ item.title }}</h4>
+    <p>{{ item.description | markdownify }}</p>
+    {% endfor %}
+  </div>
+  <a role="button" class="collapsed" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample"></a>
+</section>
+
+<section>
+  <div class="card">
+    <div class="card-body border border-warning">
+        <h4 class="card-title">{{ site.data.common-info.services.prerequisite.title }}</h4>
+        <p class="card-text">{{ site.data.common-info.services.prerequisite.text | markdownify }}</p>
+    </div>
+  </div>
+</section>
