@@ -1,20 +1,21 @@
 ---
-title: Professionnels
 layout: default
-permalink: /professionnels/lavage-auto/
+title: Professionnels
+permalink: /professionnels/
 ---
-
-<h2>{{ site.data.professional.title }}</h2>
-<hr />
-<p class="text-justify">
-  {{ site.data.professional.introduction | markdownify }}
-</p>
+<section>
+  <h2>{{ site.data.professional.sections.introduction.title }}</h2>
+  <hr />
+  <p class="text-justify">
+    {{ site.data.professional.sections.introduction.text | markdownify }}
+  </p>
+</section>
 
 {% include common-info.html %}
 
-<div class="container">
+<section class="container">
   <div class="row card-group company-types">
-  {% for item in site.data.professional.company-types %}
+  {% for item in site.data.professional.sections.company-types %}
   <div class="col-md-6 col-lg-4 mb-4">
     <div class="card text-center">
       <div class="card-header d-flex flex-column justify-content-center align-items-center">
@@ -29,4 +30,4 @@ permalink: /professionnels/lavage-auto/
   </div>
   {% endfor %}
   </div>
-</div>
+</section>

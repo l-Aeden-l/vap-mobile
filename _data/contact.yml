@@ -1,0 +1,35 @@
+header:
+  title: Contactez-nous
+  subtitle: Pour toute information et demande de devis
+
+sections:
+  note:
+    for-all: | 
+      Afin de pouvoir répondre au mieux à votre demande, nous vous demandons de bien vouloir nous communiquer : 
+      * votre email
+      * numéro de téléphone
+      * adresse d'intervention et de facturation
+    for-individual:
+      text: Pour les particuliers, veuillez également nous communiquer la catégorie de la voiture. 
+      car-category-page: 
+        text: Cliquez ici pour voir les catégories
+        permalink: particuliers#car-categories
+
+  contact-us:
+    icon: fa-phone-alt
+    phone-number: 06 08 75 59 37 
+  opening-days:
+    - day: Lundi
+      time-slot: 7H - 19H
+    - day: Mardi
+      time-slot: 7H - 19H
+    - day: Mercredi
+      time-slot: 7H - 19H
+    - day: Jeudi
+      time-slot: 7H - 19H
+    - day: Vendredi
+      time-slot: 7H - 19H
+    - day: Samedi
+      time-slot: 7H - 19H
+    - day: Dimanche
+      time-slot: 7H - 19H

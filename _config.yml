@@ -1,8 +1,7 @@
 title: Vap'Mobile
-description: Entreprise de nettoyage vapeur spécialisée dans l'entretien et la
-  remise en état de tout type de véhicule et locaux profesionnels.
 baseurl: /vap-mobile
-color-scheme: "#47B3AA" # the scheme can be any HEX code like "#00aa55"
+siteurl: http://vap-mobile.fr
+color-scheme: "#4786B3" # the scheme can be any HEX code like "#00aa55"
 
 sass:
   sass_dir: /assets/css/_sass
@@ -10,3 +9,8 @@ sass:
 
 include:
   - _pages
+
+url: http://vap-mobile.fr
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag

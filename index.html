@@ -11,6 +11,11 @@ layout: default
       <p>
           {{ site.data.home.sections.introduction.text }}
       </p>
+      <div class="mt-2 text-center">
+        <a class="btn btn-primary" href="{{ site.baseurl }}{{ site.data.home.sections.introduction.contact-us.url }}" role="button">
+          {{ site.data.home.sections.introduction.contact-us.text }}
+        </a>
+      </div>
     </section>
     <section>
       <h3>{{ site.data.home.sections.why-steam.title }}</h3>
@@ -21,7 +26,7 @@ layout: default
     <section>
     <section>
       <div class="card">
-        <div class="card-body border border-info d-flex flex-lg-row flex-md-row flex-column">
+        <div class="card-body border border-primary d-flex flex-lg-row flex-md-row flex-column">
           <img src="{{ site.baseurl }}/{{ site.data.home.sections.covid-19.image.source }}" alt="{{ site.data.home.sections.covid-19.image.alt }}">
           <div>
             <h5 class="card-title">{{ site.data.home.sections.covid-19.title }}</h5>

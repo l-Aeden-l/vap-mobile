@@ -6,7 +6,10 @@ sections:
   introduction:
     title: "Qui sommes-nous ?"
     text: | 
-      Nous sommes une entreprise de nettoyage vapeur de tout type de véhicule auto : voiture, utilitaire, camping-car" dans le lot-et-garonne (47), dans une zone géographique couvrant Agen, Le Passage, Marmande, Casteljaloux, Villeneuve-Sur-Lot.
+      Nous sommes une entreprise de nettoyage vapeur de tout type de véhicule auto : voiture, utilitaire, camping-car, etc. dans le lot-et-garonne (47), dans une zone géographique couvrant Agen, Le Passage, Marmande, Casteljaloux, Villeneuve-Sur-Lot, etc.
+    contact-us:
+      text: "Vous souhaitez nous joindre ? Cliquez ici"
+      url: /contact/
   why-steam:
     title: "Pourquoi la vapeur ?"
     text: |

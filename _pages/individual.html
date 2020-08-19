@@ -1,13 +1,13 @@
 ---
-title: Particuliers
 layout: default
-permalink: /particuliers/lavage-auto/
+title: Particuliers
+permalink: /particuliers/
 ---
 <section>
   <h2>{{ site.data.individual.sections.introduction.title }}</h2>
   <hr />
   <p>
-    {{ site.data.individual.sections.introduction.content | markdownify }}
+    {{ site.data.individual.sections.introduction.text | markdownify }}
   </p>
 </section>
 
@@ -16,7 +16,7 @@ permalink: /particuliers/lavage-auto/
 <section class="container">
   <h3>{{ site.data.individual.sections.pricing.title }}</h3>
   <hr />
-  <div class="row card-group car-categories">
+  <div id="car-categories" class="row card-group car-categories">
     {% for item in site.data.individual.sections.pricing.items %}
     <div class="col-md-6 col-lg-4 mb-4">
       <div class="card text-center">

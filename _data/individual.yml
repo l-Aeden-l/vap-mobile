@@ -1,11 +1,11 @@
 header:
-  title: "- À partir de 85 € -"
+  title: "À partir de 85 €"
   subtitle: Nettoyage intérieur complet de votre véhicule
 
 sections:
   introduction:
     title: "Une offre simple, une tarification adaptée"
-    content: |
+    text: |
       Notre procédé de nettoyage vapeur se veut clair et concis, nos prix également. Ici, pas de grilles tarifaires obscures à décrypter point par point ; nous vous présentons
       6 catégories de véhicules et le forfait de votre choix.
   pricing:
