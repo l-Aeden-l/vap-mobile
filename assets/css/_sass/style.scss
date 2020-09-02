@@ -94,3 +94,7 @@ section {
 .services-detail a:not(.collapsed)::after {
   content: 'Voir moins...';
 }
+
+.form-submission-message {
+  display: none;
+}

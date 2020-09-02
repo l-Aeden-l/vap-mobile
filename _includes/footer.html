@@ -7,3 +7,34 @@
   </div>
   <!-- /.container -->
 </footer>
+
+<!-- Bootstrap core JavaScript -->
+<script src="{{ site.baseurl }}/assets/vendor/jquery/jquery.min.js"></script>
+<script src="{{ site.baseurl }}/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+<script>
+  $(document).ready(function(){
+      let formID = $("#email-form");
+      let form_submission_url = formID.attr("action");
+      $("#submit").submit(function(event){
+          event.preventDefault();
+          $.ajax({
+              type: "POST",
+              url: form_submission_url,
+              data: formID.serialize(),
+              success: function(data){
+                  let alert_box = $(".form-submission-message");
+                  alert_box.addClass("alert-success");
+                  alert_box.text(data);
+                  alert_box.fadeIn(1000);
+              },
+              error: function(data){
+                  let alert_box = $(".form-submission-message");
+                  alert_box.addClass("alert-danger");
+                  alert_box.text(data);
+                  alert_box.fadeIn(1000);
+              }
+          });
+      });
+  });
+</script>
