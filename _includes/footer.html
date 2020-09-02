@@ -16,7 +16,7 @@
   $(document).ready(function(){
       let formID = $("#email-form");
       let form_submission_url = formID.attr("action");
-      $("#submit").submit(function(event){
+      formID.submit(function(event){
           event.preventDefault();
           $.ajax({
               type: "POST",
