@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1, shrink-to-fit=no"
+  />
+  <meta name="author" content="Frédéric HAUGUEL" />
+
+  <title></title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="http://vap-mobile.fr/assets/css/main.css" rel="stylesheet" />
+</head>
+
+
+<body>
+  <!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light shadow">
+  <div class="container">
+    <a class="navbar-brand js-scroll-trigger" href="http://vap-mobile.fr/">
+      <img src="http://vap-mobile.fr/assets/img/logo-vap-mobile.png" height="100px" class="d-inline-block align-top" alt="" loading="lazy">
+    </a>
+    <button
+      class="navbar-toggler ml-auto"
+      type="button"
+      data-toggle="collapse"
+      data-target="#navbarResponsive"
+      aria-controls="navbarResponsive"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+        
+        <li class="nav-item">
+          <a class="nav-link" href="http://vap-mobile.fr/">Accueil</a>
+        </li>
+        
+        <li class="nav-item">
+          <a class="nav-link" href="http://vap-mobile.fr/particuliers/">Particuliers</a>
+        </li>
+        
+        <li class="nav-item">
+          <a class="nav-link" href="http://vap-mobile.fr/professionnels/">Professionnels</a>
+        </li>
+        
+        <li class="nav-item">
+          <a class="nav-link" href="http://vap-mobile.fr/contact/">Contact</a>
+        </li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+ 
+
+<!-- Header -->
+<header class=" bg-primary py-5 mb-5">
+  <div class="container h-100">
+    <div class="row h-100 align-items-center">
+      <div class="hero-unit col-lg-12 text-center">
+        <h1 class="display-4 mt-5 mb-2">
+          
+        </h1>
+        <p class="mb-5">
+          
+        </p>
+      </div>
+    </div>
+  </div>
+</header>
+
+  <!-- Page Content -->
+  <div class="container mb-5">
+    <style type="text/css" media="screen">
+  .container {
+    margin: 10px auto;
+    max-width: 600px;
+    text-align: center;
+  }
+  h1 {
+    margin: 30px 0;
+    font-size: 4em;
+    line-height: 1;
+    letter-spacing: -1px;
+  }
+</style>
+
+<div class="container">
+  <h1>404</h1>
+
+  <p><strong>Page not found :(</strong></p>
+  <p>The requested page could not be found.</p>
+</div>
+
+  </div>
+  <!-- /.container -->
+  <!-- Footer -->
+<footer class="py-5 bg-dark">
+  <div class="container">
+    <p class="m-0 text-center text-white">
+      Site réalisé par <a href="http://ordi-guide.fr" target="_blank">Ordi Guide</a>
+    </p>
+  </div>
+  <!-- /.container -->
+</footer>
+
+<!-- Bootstrap core JavaScript -->
+<script src="http://vap-mobile.fr/assets/vendor/jquery/jquery-3.5.1.min.js"></script>
+<script src="http://vap-mobile.fr/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+<script>
+  $(document).ready(function(){
+      $("#email-form").submit(function(event){
+          event.preventDefault();
+          let form_url = $(this).attr("action"); //récupérer l'URL du formulaire
+          let form_method = $(this).attr("method"); //récupérer la méthode GET/POST du formulaire
+          let form_data = $(this).serialize(); //Encoder les éléments du formulaire pour la soumission
+          $.ajax({
+              type: form_method,
+              url: form_url,
+              data: form_data,
+              success: function(data){
+                  let alert_box = $(".form-submission-message");
+                  alert_box.addClass("alert-success");
+                  alert_box.text(data);
+                  alert_box.fadeIn(1000);
+              },
+              error: function(data){
+                  let alert_box = $(".form-submission-message");
+                  alert_box.addClass("alert-danger");
+                  alert_box.text(data);
+                  alert_box.fadeIn(1000);
+              }
+          });
+      });
+  });
+</script>
+</body>
+
+</html>
