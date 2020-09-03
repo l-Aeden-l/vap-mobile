@@ -16,7 +16,6 @@
   $(document).ready(function(){
       $("#email-form").submit(function(event){
           event.preventDefault();
-          console.log("truc");
           let form_url = $(this).attr("action"); //récupérer l'URL du formulaire
           let form_method = $(this).attr("method"); //récupérer la méthode GET/POST du formulaire
           let form_data = $(this).serialize(); //Encoder les éléments du formulaire pour la soumission
