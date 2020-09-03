@@ -9,19 +9,21 @@
 </footer>
 
 <!-- Bootstrap core JavaScript -->
-<script src="{{ site.baseurl }}/assets/vendor/jquery/jquery.min.js"></script>
+<script src="{{ site.baseurl }}/assets/vendor/jquery/jquery-3.5.1.min.js"></script>
 <script src="{{ site.baseurl }}/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
 <script>
   $(document).ready(function(){
-      let formID = $("#email-form");
-      let form_submission_url = formID.attr("action");
-      formID.submit(function(event){
+      $("#email-form").submit(function(event){
           event.preventDefault();
+          console.log("truc");
+          let form_url = $(this).attr("action"); //récupérer l'URL du formulaire
+          let form_method = $(this).attr("method"); //récupérer la méthode GET/POST du formulaire
+          let form_data = $(this).serialize(); //Encoder les éléments du formulaire pour la soumission
           $.ajax({
-              type: "POST",
-              url: form_submission_url,
-              data: formID.serialize(),
+              type: form_method,
+              url: form_url,
+              data: form_data,
               success: function(data){
                   let alert_box = $(".form-submission-message");
                   alert_box.addClass("alert-success");
