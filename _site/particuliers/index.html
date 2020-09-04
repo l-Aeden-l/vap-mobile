@@ -342,7 +342,7 @@
       }
     }
 
-    function sendData() {
+    function sendData(data) {
       const XHR = new XMLHttpRequest(), FD  = new FormData();
       for( name in data ) {
         FD.append(name, data[name]);
@@ -376,7 +376,7 @@
           phone: phone.value,
           message: message.value
         });
-        
+
       } else {
         console.log("Bad");
         alertBox.classList.remove('alert-success');
