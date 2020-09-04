@@ -24,8 +24,8 @@ $mail->Subject = "Formulaire de contact Vap'Mobile - Message de $name";
 $mail->MsgHTML($body);
 // Envoi de l'email
 if ( !$mail->Send() ) {
-echo "Echec de l'envoi du mail, Erreur: " . $mail->ErrorInfo;
+  echo "Echec de l'envoi du mail, Erreur: " . $mail->ErrorInfo;
 } else {
-echo "Message envoyé!";
+  echo "Message envoyé!";
 }
 unset($mail);
