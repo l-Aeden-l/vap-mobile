@@ -27,7 +27,7 @@
       // Expediteur, adresse de retour et destinataire :
       $mail->SetFrom("contact@vap-mobile.fr", "Formulaire de contact Vap'Mobile");
       $mail->AddReplyTo($email, $name);
-      $mail->AddAddress("hauguel.frederic@gmail.com", "Jérôme HAUGUEL - Vap'Mobile");
+      $mail->AddAddress("vapmobile47@gmail.com", "Jérôme HAUGUEL - Vap'Mobile");
       // Sujet du mail
       $mail->Subject = "Formulaire de contact Vap'Mobile - Message de $name";
       // Le message
