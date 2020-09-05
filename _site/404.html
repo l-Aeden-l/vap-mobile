@@ -133,17 +133,6 @@
       }
     }
 
-    function sendData(data) {
-      const XHR = new XMLHttpRequest(), FD  = new FormData();
-      for( name in data ) {
-        FD.append(name, data[name]);
-      }
-      XHR.addEventListener('load', function(event) { alert(event.target.responseText); });
-      XHR.addEventListener('error', function(event) { alert("Oops! Something went wrong."); });
-      XHR.open('POST', action);
-      XHR.send(FD);
-    }
-
     email.addEventListener('keyup', function() {
       console.log(this);
       fieldValidation(emailRegExp, this);
@@ -156,20 +145,20 @@
     form.addEventListener('submit', function(e) {
       e.preventDefault();
       if (emailRegExp.test(email.value) && phoneRegExp.test(phone.value)) {
-        console.log("Good");
+
+        const XHR = new XMLHttpRequest(), FD  = new FormData(form);
+        XHR.addEventListener('load', function(event) { alert(event.target.responseText); });
+        XHR.addEventListener('error', function(event) { alert("Oops! Something went wrong."); });
+        XHR.open('POST', action);
+        XHR.send(FD);
+
         alertBox.classList.remove('alert-danger');
         alertBox.classList.add('alert-success');
         alertBox.innerHTML = "Formulaire correct";
 
-        sendData({
-          name: name.value,
-          email: email.value,
-          phone: phone.value,
-          message: message.value
-        });
 
       } else {
-        console.log("Bad");
+
         alertBox.classList.remove('alert-success');
         alertBox.classList.add('alert-danger');
         alertBox.innerHTML = "Formulaire incorrect";
