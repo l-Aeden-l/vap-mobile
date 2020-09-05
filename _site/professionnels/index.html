@@ -270,20 +270,22 @@
       if (emailRegExp.test(email.value) && phoneRegExp.test(phone.value)) {
 
         const XHR = new XMLHttpRequest(), FD  = new FormData(form);
-        XHR.addEventListener('load', function(event) { alert(event.target.responseText); });
-        XHR.addEventListener('error', function(event) { alert("Oops! Something went wrong."); });
+        XHR.addEventListener('load', function(event) { 
+          alertBox.classList.remove('alert-danger');
+          alertBox.classList.add('alert-success');
+          alertBox.innerHTML = event.target.responseText;
+        });
+        XHR.addEventListener('error', function(event) { 
+          alertBox.classList.remove('alert-success');
+          alertBox.classList.add('alert-danger');
+          alertBox.innerHTML = event.target.responseText;
+        });
         XHR.open('POST', action);
         XHR.send(FD);
 
-        alertBox.classList.remove('alert-danger');
-        alertBox.classList.add('alert-success');
-        alertBox.innerHTML = "Formulaire correct";
-
-
       } else {
-
         alertBox.classList.remove('alert-success');
-        alertBox.classList.add('alert-danger');
+        alertBox.classList.add('alert-warning');
         alertBox.innerHTML = "Formulaire incorrect";
       }
     });
