@@ -6,8 +6,8 @@
 //=====Appel des fichiers requis
     use PHPMailer\PHPMailer\PHPMailer;
     use PHPMailer\PHPMailer\Exception;
-    require 'PHPMailer/Exception.php';
-    require 'PHPMailer/PHPMailer.php';
+    require 'Exception.php';
+    require 'PHPMailer.php';
 
 //=====Paramètres de contenu du mail
     //=====Adresse de destination du message (vous-meme pour un formulaire de contact).
