@@ -26,11 +26,15 @@ layout: default
     <section>
     <section>
       <div class="card">
-        <div class="card-body border border-primary d-flex flex-lg-row flex-md-row flex-column">
-          <img src="{{ site.baseurl }}/{{ site.data.home.sections.covid-19.image.source }}" alt="{{ site.data.home.sections.covid-19.image.alt }}">
-          <div>
-            <h5 class="card-title">{{ site.data.home.sections.covid-19.title }}</h5>
-            <p class="card-text">{{ site.data.home.sections.covid-19.text }}</p>
+        <div class="card-body border border-primary">
+          <div class="row">
+            <div class="col-lg-4 col-md-12 col-sm-12 d-flex justify-content-center">
+              <img src="{{ site.baseurl }}/{{ site.data.home.sections.covid-19.image.source }}" alt="{{ site.data.home.sections.covid-19.image.alt }}">
+            </div>
+            <div class="col-lg-8 col-md-12 col-sm-12">
+              <h5 class="card-title">{{ site.data.home.sections.covid-19.title }}</h5>
+              <p class="card-text">{{ site.data.home.sections.covid-19.text }}</p>
+            </div>
           </div>
         </div>
       </div>
