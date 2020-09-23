@@ -9,8 +9,6 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   };
 
-  FB.CustomerChat.show(shouldShowDialog: boolean);
-
   (function(d, s, id) {
     var js, fjs = d.getElementsByTagName(s)[0];
     if (d.getElementById(id)) return;
