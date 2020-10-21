@@ -1,5 +1,5 @@
 title: Vap'Mobile
-baseurl: ""
+baseurl: "https://vap-mobile.fr"
 color-scheme: "#4786B3" # the scheme can be any HEX code like "#00aa55"
 
 sass:
