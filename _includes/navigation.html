@@ -16,10 +16,10 @@
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarResponsive">
-      <ul class="navbar-nav ml-auto">
+      <ul itemscope itemtype="http://www.schema.org/SiteNavigationElement" class="navbar-nav ml-auto">
         {% for item in site.data.menu %}
-        <li class="nav-item{% if item.link == page.url %} active {% endif %}">
-          <a class="nav-link" href="{{ site.baseurl }}{{ item.link }}">{{
+        <li itemprop="name" class="nav-item{% if item.link == page.url %} active {% endif %}">
+          <a itemprop="url" class="nav-link" href="{{ site.baseurl }}{{ item.link }}">{{
             item.title
           }}</a>
         </li>
