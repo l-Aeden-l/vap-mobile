@@ -1,0 +1,41 @@
+---
+layout: default
+title: Galerie
+permalink: /galerie/
+---
+
+<section>
+  <h2>{{ site.data.gallery.sections.introduction.title }}</h2>
+  <hr />
+  <p>
+    {{ site.data.gallery.sections.introduction.text | markdownify }}
+  </p>
+</section>
+
+<section class="container gallery">
+  <h3>{{ site.data.gallery.sections.pictures.title }}</h3>
+  <hr>
+  <div class="row">
+    {% for picture in site.data.gallery.sections.pictures.content %}
+      <div class="col-md-4 col-sm-6 picture align-self-center">
+        <a href="{{ site.baseurl }}/{{ picture.source | append: '.jpg'}}" class="glightbox"">
+          <img src="{{ site.baseurl }}/{{ picture.source | append: '_min.jpg' }}" alt="{{ picture.alt }}" class="img-fluid img-thumbnail">
+        </a>
+      </div>
+    {% endfor %}
+  </div>
+
+  <h3>{{ site.data.gallery.sections.videos.title }}</h3>
+  <hr>
+  <div class="row">
+    {% for video in site.data.gallery.sections.videos.content %}
+      <div class="col-md-4 col-sm-6 picture align-self-center">
+        <a href="{{ site.baseurl }}/{{ video.source }}" class="glightbox">
+          <img src="{{ site.baseurl }}/{{ video.cover }}" alt="image" class="img-fluid img-thumbnail">
+        </a>
+      </div>
+    {% endfor %}
+  </div>
+</section>
+
+

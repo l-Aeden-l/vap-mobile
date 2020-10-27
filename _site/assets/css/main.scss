@@ -1,0 +1,28 @@
+
+
+@charset "utf-8";
+
+$theme-colors: (
+  "primary": {{ site.color-scheme }}
+);
+
+// Width of the content area
+$content-width: 800px;
+$on-palm: 600px;
+$on-laptop: 800px;
+
+@mixin media-query($device) {
+  @media screen and (max-width: $device) {
+    @content;
+  }
+}
+
+@import "bootstrap/bootstrap";
+@import "custom", "style";
+
+$fa-font-path: "webfonts";
+@import "fontawesome/scss/fontawesome.scss";
+@import "fontawesome/scss/solid.scss";
+@import "fontawesome/scss/brands.scss";
+
+

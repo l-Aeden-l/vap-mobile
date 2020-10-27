@@ -2,6 +2,10 @@
   {% assign header = "main-header" %}
   {% assign title  = site.data.home.header.title %}
   {% assign subtitle = site.data.home.header.subtitle %}
+{% elsif page.url == "/galerie/" %}
+  {% assign header = "service-header" %}
+  {% assign title  = site.data.gallery.header.title %}
+  {% assign subtitle = site.data.gallery.header.subtitle %}
 {% elsif page.url == "/particuliers/" %}
   {% assign header = "service-header" %}
   {% assign title  = site.data.individual.header.title %}

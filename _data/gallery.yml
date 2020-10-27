@@ -1,0 +1,44 @@
+header:
+  title: "Le nettoyage dans la pratique"
+  subtitle: Photos et vidéos
+
+sections:
+  introduction:
+    title: "On vous montre comment ça se passe"
+    text: |
+      Afin que vous puissiez vous faire une meilleure idée de nos prestations, nous vous présentons ci-dessous quelques clichés et vidéos qui seront amenés à évoluer avec le temps.
+  pictures:
+    title: "Photos"
+    content:
+      - source: "assets/galleries/pictures/nettoyage_tableau_de_bord"
+        alt: "Nettoyage du tableau de bord"
+      - source: "assets/galleries/pictures/nettoyage_siege_conducteur_vapeur"
+        alt: "Nettoyage du siège conducteur à la vapeur"
+      - source: "assets/galleries/pictures/nettoyage_siege_passager_produit"
+        alt: "Nettoyage du siège passager avec produit"
+      - source: "assets/galleries/pictures/nettoyage_siege_passager_vapeur"
+        alt: "Nettoyage du siège passager à la vapeur"
+      - source: "assets/galleries/pictures/nettoyage_coffre_avant_apres"
+        alt: "Nettoyage du coffre - avant/après"
+      - source: "assets/galleries/pictures/nettoyage_pedalier_avant_apres"
+        alt: "Nettoyage du pédalier - avant/après"
+      - source: "assets/galleries/pictures/nettoyage_sieges_arrieres_avant_apres"
+        alt: "Nettoyage des sièges arrières - avant/après"
+
+  videos:
+    title: "Vidéos"
+    content:
+      - source: "assets/galleries/videos/nettoyage_voiture_avant.mp4"
+        cover: "assets/galleries/videos/nettoyage_voiture_avant_min-video.jpg"
+      - source: "assets/galleries/videos/nettoyage_voiture_apres.mp4"
+        cover: "assets/galleries/videos/nettoyage_voiture_apres_min-video.jpg"
+      - source: "assets/galleries/videos/nettoyage_tableau_de_bord.mp4"
+        cover: "assets/galleries/videos/nettoyage_tableau_de_bord_min-video.jpg"
+      - source: "assets/galleries/videos/nettoyage_siege_passager_vapeur.mp4"
+        cover: "assets/galleries/videos/nettoyage_siege_passager_vapeur_min-video.jpg"
+      - source: "assets/galleries/videos/nettoyage_siege_passager_aspiration.mp4"
+        cover: "assets/galleries/videos/nettoyage_siege_passager_aspiration_min-video.jpg"
+      - source: "assets/galleries/videos/nettoyage_siege_conducteur.mp4"
+        cover: "assets/galleries/videos/nettoyage_siege_conducteur_min-video.jpg"
+      - source: "assets/galleries/videos/nettoyage_pedalier.mp4"
+        cover: "assets/galleries/videos/nettoyage_pedalier_min-video.jpg"
