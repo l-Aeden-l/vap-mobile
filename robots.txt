@@ -1,8 +1,4 @@
-User-agent: Googlebot
-Disallow:
+User-agent: *
+Allow: /
 
-User-agent: AdsBot-Google
-Disallow:
-
-User-agent: Googlebot-Image
-Disallow:
+Sitemap: https://vap-mobile.fr/sitemap.xml
