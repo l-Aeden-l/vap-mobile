@@ -1,1 +1,1 @@
-Sitemap: /sitemap.xml
+Sitemap: /https://vap-mobile.fr/sitemap.xml
