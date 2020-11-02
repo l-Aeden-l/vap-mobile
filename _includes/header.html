@@ -2,6 +2,8 @@
   {% assign header = "main-header" %}
   {% assign title  = site.data.home.header.title %}
   {% assign subtitle = site.data.home.header.subtitle %}
+  {% assign info_icon   = site.data.home.header.info.icon %}
+  {% assign info_text   = site.data.home.header.info.text %}
 {% elsif page.url == "/galerie/" %}
   {% assign header = "service-header" %}
   {% assign title  = site.data.gallery.header.title %}
@@ -28,9 +30,14 @@
         <h1 class="display-4 mt-5 mb-2">
           {{ title }}
         </h1>
-        <p class="mb-5">
+        <p class="{% if page.url != '/'' %}mb-5{% endif %}">
           {{ subtitle }}
         </p>
+        {% if page.url == "/" %}
+        <div class="alert alert-info" role="alert">
+          <strong><i class="fa {{ info_icon }}"></i> | {{ info_text }}</strong>
+        </div>
+        {% endif %}
       </div>
     </div>
   </div>

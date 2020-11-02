@@ -18,5 +18,3 @@ document.addEventListener('DOMContentLoaded', function() {
   }(document, 'script', 'facebook-jssdk'));
 
 });
-
-

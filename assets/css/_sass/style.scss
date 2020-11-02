@@ -36,6 +36,10 @@ section {
   margin-bottom: 1em;
 }
 
+/*------------------------------------*\
+  #PAGE-INDEX (index.html)
+\*------------------------------------*/
+
 .why-steam .card-body header {
   display: flex;
   align-items: center;
@@ -58,47 +62,52 @@ section {
     justify-content: center;
   }
 
+
+
+/*------------------------------------*\
+  #GALERIE (gallery.html)
+\*------------------------------------*/
+
 .gallery .picture {
   margin-bottom: $font-size-base;
 }
 
-.car-categories .card-header, {
-  height: 125px;
-}
-.car-categories .card-body {
-  height: 150px;
-}
-.company-types .card-header, {
-  height: 75px;
-}
-.company-types .card-title {
-  margin-bottom: 0;
-}
-.company-types .card-body {
-  padding: 0;
-}
-.car-categories img {
-  height: 50px;
-}
+
+
+/*------------------------------------*\
+  #PARTICULIERS / PROFESSIONNELS (individual.html / professional.html)
+\*------------------------------------*/
 
 .services-detail #collapseExample.collapse:not(.show) {
   display: block;
   height: 12rem;
   overflow: hidden;
 }
-
 .services-detail #collapseExample.collapsing {
   height: 12rem;
 }
-
 .services-detail a.collapsed::after {
   content: 'Voir plus...';
 }
-
 .services-detail a:not(.collapsed)::after {
   content: 'Voir moins...';
 }
 
-.form-submission-message {
-  //display: none;
+.car-categories .card-header {
+  height: 125px;
+}
+.car-categories .card-body {
+  height: 150px;
+}
+.company-types .card-header {
+  height: 75px;
+}
+.car-categories img {
+  height: 50px;
+}
+.company-types .card-title {
+  margin-bottom: 0;
+}
+.company-types .card-body {
+  padding: 0;
 }

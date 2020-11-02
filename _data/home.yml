@@ -1,6 +1,9 @@
 header:
   title: Nettoyage vapeur de véhicules à domicile
   subtitle: Pour particuliers et professionnels.
+  info: 
+    icon: fa-info-circle
+    text: "Nous travaillons également durant la période Covid"
 
 sections:
   introduction:
