@@ -1,11 +1,23 @@
-# Normalisation d'URL
-RewriteEngine on
+## Base Redirects ##
 
-# https sans www
-RewriteCond %{HTTPS} off
-RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI}
-RewriteCond %{HTTP_HOST} ^www.(.*)$ [NC]
-RewriteRule ^(.*)$ https://%1/$1 [R=301,L]
+# Turn on Rewrite Engine
+RewriteEngine On
+
+# Remove trailing slash from non-filepath urls
+RewriteCond %{REQUEST_URI} /(.+)/$
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^ https://vap-mobile.fr/%1 [R=301,L]
+
+# Include trailing slash on directory 
+RewriteCond %{REQUEST_URI} !(.+)/$
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^(.+)$ https://vap-mobile.fr/$1/ [R=301,L]
+
+# Force HTTPS and remove WWW
+RewriteCond %{HTTP_HOST} ^www\.(.*)$ [OR,NC]
+RewriteCond %{HTTPS} off  
+RewriteRule ^(.*)$ https://vap-mobile.fr/$1 [R=301,L]
 
 # Allow access from all domains for webfonts.
 # Alternatively you could only whitelist your
