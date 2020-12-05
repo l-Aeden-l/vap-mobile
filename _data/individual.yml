@@ -19,8 +19,8 @@ sections:
           - source: "assets/img/categories-voitures/citadine.svg"
             alt: "Citadine"
         prices:
-          - in: 85
-            in-out: 110
+          - in: 90
+            in-out: 120
       - title: "Berline<br>cabriolet"
         subtitle: "C4, 308, Focus, DS3, A3, 206, 207..."
         images:
@@ -29,8 +29,8 @@ sections:
           - source: "assets/img/categories-voitures/cabriolet.svg"
             alt: "Cabriolet"
         prices:
-          - in: 95
-            in-out: 125
+          - in: 100
+            in-out: 135
       - title: "Grande berline<br>Grande cabriolet"
         subtitle: "DS5, Classe C, 607, C5, 407, 508..."
         images:
@@ -39,8 +39,8 @@ sections:
           - source: "assets/img/categories-voitures/cabriolet.svg"
             alt: "Grande cabriolet"
         prices:
-          - in: 105
-            in-out: 140
+          - in: 110
+            in-out: 150
       - title: "Petit utilitaire<br>Break - SUV"
         subtitle: "Espace, DS7, Qashqai, Kangoo..."
         images:
@@ -49,8 +49,8 @@ sections:
           - source: "assets/img/categories-voitures/break.svg"
             alt: "Break"
         prices:
-          - in: 115
-            in-out: 155
+          - in: 120
+            in-out: 165
       - title: "Grand utilitaire<br>4x4"
         subtitle: "Vivaro, Range Rover"
         images:
@@ -59,15 +59,15 @@ sections:
           - source: "assets/img/categories-voitures/4x4.svg"
             alt: "4x4"
         prices:
-          - in: 130
+          - in: 140
       - title: "Voiture de luxe"
         subtitle: "Porsche, Ferrari, Maserati"
         images:
           - source: "assets/img/categories-voitures/coupe.svg"
             alt: "Coupe"
         prices:
-          - in: 140
-            in-out: 185
+          - in: 145
+            in-out: 195
 
 
     
